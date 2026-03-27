@@ -10,4 +10,12 @@ Non-Functional Requirements:
 2. Consistency: For a specific item there might be a case multiple customer want to buy a item, in that case consistency matters. For that we acquire a lock using reddis.
 
 Core Entites:
+1. Item --- Item_id, name, description
+2. Inventory-- Store name, item_id, quantity
+3. Distribution center--inventory_name, coordinates
+4. order--order_id,status(based upon payment)
+5. Order_Item--user_id, deliverable_item
+
+Api designing:
+
 
