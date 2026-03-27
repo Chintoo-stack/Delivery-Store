@@ -17,5 +17,28 @@ Core Entites:
 5. Order_Item--user_id, deliverable_item
 
 Api designing:
+1. Get /v1/avaiability/lat=LAT && lon=LON
+2. POST /v1/order
+3. {
+4. lat=LAT;
+5. lon=LON;
+6. items=ITEM1,ITEM2,ITEM3....
+7. }--order status-->failure/success
+
+High-Level Design:
+There are two functional requirements :
+1.Customer is able to search the items and availability based upon it's location and delivery duaration is within 1 hour.
+
+
+
+2. Customer is able to order the items
+
+
+
+Low-Level-design:
+1.
+
+
+
 
 
